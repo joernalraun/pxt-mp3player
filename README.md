@@ -1,4 +1,4 @@
-## MP3Player
+## mp3player
 
 Package for an external MP3 Player fom Seeed Studio.
 
