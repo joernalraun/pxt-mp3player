@@ -1,7 +1,7 @@
 #include "pxt.h"
 //#include "MicroBitSerial.h"
 
-class mp3player {
+namespace mp3player {
 		
 	MicroBitSerial uBitSerial;
 	
