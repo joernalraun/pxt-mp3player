@@ -1,14 +1,15 @@
 {
     "name": "mp3player",
-    "version": "1.0.0",
+    "version": "0.0.0",
     "description": "MP3 Player package for the Seeed Studio Grove-MP3-v2.0",
-    "license": "xxx",
+    "license": "MIT",
     "dependencies": {
         "core": "*"
     },
     "files": [
         "README.md",
-        "mp3player.cpp"
+        "mp3player.cpp",
+        "mp3player.ts"
     ],
     "testFiles": [
         "test.ts"
