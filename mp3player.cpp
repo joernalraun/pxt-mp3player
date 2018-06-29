@@ -15,8 +15,7 @@ namespace mp3player {
     */
     //% weight=10
     //% help=serial/send command
-    //% blockId=serial_redirect block="serial|send|command %command | hbyte %hbyte | lbyte %lbyte"
-    //% blockExternalInputs=1
+    //% blockId=serial_sendCommand block="serial|send|command %command | hbyte %hbyte | lbyte %lbyte"
 	void sendCommand(int command, int hbyte, int lbyte){
 		uint8_t cmd[] = {0x7E, 0xFF, 0x06, command, 0x00, hbyte, lbyte, 0xEF };
 		uBit.serial.send(cmd, 8);
