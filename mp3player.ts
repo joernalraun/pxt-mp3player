@@ -1,21 +1,19 @@
 /*
  *	
  */
-//% color=#0fbc11 block="mp3player"
+//% color=#0fbc11 icon="\uf001" block="SerialMP3"
 namespace mp3player {
 
     /**
-     * sends a command and its 16bit value as low and high byte
-     * @param cmd command
-     * @param hb high byte
-     * @param lb low byte
+     * 
+     * @param 
      */
     //% weight=87 blockGap=8
-    //% block="send | %cmd | with | hbyte | %hb | and | lbyte | %lb " 
-    //% blockId=sendCommand
-    //%block shim=mp3player::sendCommand
-    export function sendCommand(cmd: number, hb: number, lb: number ): void {
+    //% block="serial|send|command %command | hbyte %hbyte | lbyte %lbyte" 
+    //% blockId=send_command
+    //% icon="\uf1ec"
+    //% shim=mp3player::sendCommand
+    export function sendCommand(command: number, hbyte: number, lbyte: number): void {
         
     }
-	
 }

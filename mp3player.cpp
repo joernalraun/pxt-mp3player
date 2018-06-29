@@ -17,27 +17,10 @@ namespace mp3player {
     //% help=serial/send command
     //% blockId=serial_redirect block="serial|send|command %command | hbyte %hbyte | lbyte %lbyte"
     //% blockExternalInputs=1
-	void sendCommand(uint8_t command, uint8_t hbyte, uint8_t lbyte){
+	void sendCommand(int command, int hbyte, int lbyte){
 		uint8_t cmd[] = {0x7E, 0xFF, 0x06, command, 0x00, hbyte, lbyte, 0xEF };
 		uBit.serial.send(cmd, 8);
 		//uBitSerial.send(cmd, 8);
 	}
-		
-	/**
-    * Dynamically configuring the serial instance to use pins other than USBTX and USBRX.
-    * @param tx the new transmission pins, eg: SerialPin.P0
-    * @param rx the new reception pin, eg: SerialPin.P1
-    */
-    //% weight=10
-    //% help=serial/redirect-to
-    //% blockId=serial_redirect block="serial|redirect to|TX %tx|RX %rx"
-    //% blockExternalInputs=1
-    void redirect(SerialPin tx, SerialPin rx) {
-      MicroBitPin* txp = getPin(tx); if (!tx) return;
-      MicroBitPin* rxp = getPin(rx); if (!rx) return;
-	  
-      uBitSerial.redirect(txp->name, rxp->name);
-      uBitSerial.baud(9600);
-    }
 
 }
