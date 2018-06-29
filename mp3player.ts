@@ -1,7 +1,7 @@
 /*
  *	
  */
-//% color=#0fbc11 icon="\uf120" block="mp3player"
+//% color=#0fbc11 icon="\uf120"
 namespace mp3player {
 
     /**
@@ -12,8 +12,7 @@ namespace mp3player {
     //% block="serial|send|command %command | hbyte %hbyte | lbyte %lbyte" 
     //% blockId=send_command
     //% icon="\uf120"
-    //% shim=mp3player::sendCommand
     export function sendCommand(command: number, hbyte: number, lbyte: number): void {
-        
+        mp3player.sendCommand(command, hbyte, lbyte)
     }
 }
