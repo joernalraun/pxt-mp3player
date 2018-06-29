@@ -8,8 +8,7 @@
     },
     "files": [
         "README.md",
-        "mp3player.cpp",
-	"mp3player.ts"
+        "mp3player.cpp"
     ],
     "testFiles": [
         "test.ts"
