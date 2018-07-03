@@ -4,8 +4,7 @@
     "description": "MP3 Player package for the Seeed Studio Grove-MP3-v2.0",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "drivers": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
