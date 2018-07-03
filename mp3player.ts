@@ -1,6 +1,6 @@
 
 //% color=#0fbc11 icon="\uf120" block="mp3player"
-namespace mp3player {
+namespace custom {
 
     /**
      * @param command buffer to send
@@ -112,6 +112,7 @@ namespace mp3player {
     //% block="resume"
     export function resume()
     {
+        let buf = pins.createBuffer(8)
         buf[0] = 0x7E
         buf[1] = 0xFF
         buf[2] = 0x06
@@ -133,6 +134,7 @@ namespace mp3player {
     //% block="Play next"
     export function playNext()
     {
+        let buf = pins.createBuffer(8)
         buf[0] = 0x7E
         buf[1] = 0xFF
         buf[2] = 0x06
@@ -154,6 +156,7 @@ namespace mp3player {
     //% block="Play previous"
     export function playPrevious()
     {
+        let buf = pins.createBuffer(8)
         buf[0] = 0x7E
         buf[1] = 0xFF
         buf[2] = 0x06
@@ -175,6 +178,7 @@ namespace mp3player {
     //% block="Loop all"
     export function playLoop()
     {
+        let buf = pins.createBuffer(8)
         buf[0] = 0x7E
         buf[1] = 0xFF
         buf[2] = 0x06
@@ -196,6 +200,7 @@ namespace mp3player {
     //% block="Set volume to | %volume"
     export function setVolume(volume: number)
     {
+        let buf = pins.createBuffer(8)
         buf[0] = 0x7E
         buf[1] = 0xFF
         buf[2] = 0x06
@@ -217,6 +222,7 @@ namespace mp3player {
     //% block="Volume up"
     export function increaseVolume()
     {
+        let buf = pins.createBuffer(8)
         buf[0] = 0x7E
         buf[1] = 0xFF
         buf[2] = 0x06
@@ -238,6 +244,7 @@ namespace mp3player {
     //% block="Volume down"
     export function decreaseVolume()
     {
+        let buf = pins.createBuffer(8)
         buf[0] = 0x7E
         buf[1] = 0xFF
         buf[2] = 0x06
