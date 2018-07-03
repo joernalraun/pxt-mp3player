@@ -1,6 +1,5 @@
 #include "pxt.h"
 
-//% weight=5 color=#2699BF icon="\uf120" block="mp3player"
 namespace mp3player {
 	
 
