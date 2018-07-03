@@ -10,7 +10,7 @@ namespace mp3player {
     //% block="serial|send|command %command | hbyte %hbyte | lbyte %lbyte" 
     //% blockId=send_command
     //% shim=mp3player::sendCommand
-    export function sendCommand(command: number, hbyte: number, lbyte: number): void {
+    export function sendCommand(command: Buffer): void {
         //mp3player.sendCommand(command, hbyte, lbyte)
         return;
     }
