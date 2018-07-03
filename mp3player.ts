@@ -1,5 +1,5 @@
 
-
+//% color=#0fbc11 icon="\uf120" block="mp3player"
 namespace mp3player {
 
     /**
