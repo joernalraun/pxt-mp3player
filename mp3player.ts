@@ -3,9 +3,7 @@
 namespace mp3player {
 
     /**
-     * @param command play a file, eg: 0x03
-     * @param high byte of the 16bit file index, eg: 0x00
-     * @param low byte of the 16bit file index, eg: 0x04
+     * @param command buffer to send
      */
     //% block="serial|send|command %command" 
     //% blockId=send_command
