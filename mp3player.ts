@@ -1,6 +1,6 @@
 
 //% color=#0fbc11 icon="\uf120" block="mp3player"
-namespace custom {
+namespace mp3player {
 
     /**
      * @param command buffer to send
