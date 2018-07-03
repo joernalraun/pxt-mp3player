@@ -2,6 +2,9 @@
 //% color=#0fbc11 icon="\uf120" block="mp3player"
 namespace mp3player {
 
+	serial.onDataReceived("", () => {
+	})
+	
     /**
      * @param command buffer to send
      */
@@ -9,7 +12,6 @@ namespace mp3player {
     //% blockId=send_command
     //% shim=mp3player::sendCommand
     export function send(command: Buffer): void {
-        //mp3player.sendCommand(command, hbyte, lbyte)
         return;
     }
 
@@ -18,7 +20,9 @@ namespace mp3player {
 	 * Description: Specify the music index to play, the index is decided by the input sequence of the music.
 	 * Parameters: index: the music index: 0-65535.
 	 * Return: none
+	 * @param index file number
 	****************************************************************/
+    //% blockId=playIndex
     //% block="Play | File | %index"
     export function playIndex(index: number) {
         let buf = pins.createBuffer(8)
@@ -43,7 +47,9 @@ namespace mp3player {
      *              The name must be Decimal. 
      * Parameters: index, the name of MP3 flie.
      * Return: none
+     * @param index file number in folder MP3
     **************************************************************/
+    //% blockId=playMP3Index
     //% block="Play | File | %index in Folder MP3"
     export function playMP3Index(index: number) {
         let buf = pins.createBuffer(8)
@@ -64,8 +70,11 @@ namespace mp3player {
      * Description: Specify the music index in the folder to play, the index is decided by the input sequence of the music.
      * Parameters: folder: folder name, must be number;  index: the music index.
      * Return: none
+     * @param folder folder number
+     * @param index file number
     ****************************************************************/
-    //% block="Play File | %index | in folder | %folder"
+    //% blockId=specifyFolderIndex
+    //% block="In folder | %folder | Play File | %index "
     export function specifyFolderIndex(folder: number, index: number)
     {
         let buf = pins.createBuffer(8)
@@ -87,6 +96,7 @@ namespace mp3player {
      * Parameters: none
      * Return: none
     ****************************************************************/
+    //% blockId=
     //% block="pause"
     export function pause()
     {
@@ -109,6 +119,7 @@ namespace mp3player {
      * Parameters: none
      * Return: none
     ****************************************************************/
+    //% blockId=resume
     //% block="resume"
     export function resume()
     {
@@ -131,6 +142,7 @@ namespace mp3player {
      * Parameters: none
      * Return: none
     ****************************************************************/
+    //% blockId=playNext
     //% block="Play next"
     export function playNext()
     {
@@ -153,6 +165,7 @@ namespace mp3player {
      * Parameters: none
      * Return: none
     ****************************************************************/
+    //% blockId=playPrevious
     //% block="Play previous"
     export function playPrevious()
     {
@@ -175,6 +188,7 @@ namespace mp3player {
      * Parameters: none
      * Return: none
     ****************************************************************/
+    //% blockId=playLoop
     //% block="Loop all"
     export function playLoop()
     {
@@ -196,7 +210,9 @@ namespace mp3player {
      * Description: Set the volume, the range is 0x00 to 0x1E.
      * Parameters: volume: the range is 0x00 to 0x1E.
      * Return: none
+     * @param volume volume level
     ****************************************************************/
+    //% blockId=setVolume
     //% block="Set volume to | %volume"
     export function setVolume(volume: number)
     {
@@ -219,6 +235,7 @@ namespace mp3player {
      * Parameters: none
      * Return: none
     ****************************************************************/
+    //% blockId=increaseVolume
     //% block="Volume up"
     export function increaseVolume()
     {
@@ -241,6 +258,7 @@ namespace mp3player {
      * Parameters: none
      * Return: none
     ****************************************************************/
+    //% blockId=decreaseVolume
     //% block="Volume down"
     export function decreaseVolume()
     {
