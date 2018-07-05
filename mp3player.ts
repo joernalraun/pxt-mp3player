@@ -11,7 +11,7 @@ namespace mp3player {
     //% block="serial|send|command %command" 
     //% blockId=send_command
     //% shim=mp3player::sendCommand
-    export function send(command: Buffer): void {
+    function send(command: Buffer): void {
         return;
     }
 
@@ -50,7 +50,7 @@ namespace mp3player {
      * @param index file number in folder MP3
     **************************************************************/
     //% blockId=playMP3Index
-    //% block="Play | File | %index in Folder MP3"
+    //% block="Play | File | %index | in Folder MP3"
     export function playMP3Index(index: number) {
         let buf = pins.createBuffer(8)
         buf[0] = 0x7E
