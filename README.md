@@ -6,4 +6,4 @@ http://wiki.seeedstudio.com/Grove-MP3_v2.0/
 
 ## Supported target
 
-* for PXT-calliope
+* for PXT/calliope
