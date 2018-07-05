@@ -1,5 +1,5 @@
 {
-	"mp3player.playIndex": "Wählt eine mp3 Datei aus ( index heißt, die n^te Datei die auf die mikrosd-Karte kopiert wurde )"
+	"mp3player.playIndex": "Wählt eine mp3 Datei aus ( index heißt, die n^te Datei die auf die mikrosd-Karte kopiert wurde )",
 	"mp3player.playMP3Index": "Wählt eine mp3 Datei aus, die im Ordner MP3 ist",
 	"mp3player.specifyFolderIndex": "Wählt eine mp3 Datei aus, die in einem Ordner ( der Ordner Name muss eine Nummer sein z.B. 0021 )",
 	"mp3player.pause": "Pausiet die wiedergabe",
