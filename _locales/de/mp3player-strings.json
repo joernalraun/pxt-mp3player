@@ -1,13 +1,13 @@
 {
 	"mp3player.playIndex|block": "Spiele Datei | %index | ab",
-	"mp3player.playMP3Index": "Im Ordner MP3 spiele Datei | %index | ab",
-	"mp3player.specifyFolderIndex": "Im Ordner | %folder | spiele Datei | %index | ab",
-	"mp3player.pause": "Pausieren",
-	"mp3player.resume": "Fortsetzen",
-	"mp3player.playNext": "Spiel nächste",
-	"mp3player.playPrevious": "Spiel vorherige",
-	"mp3player.playLoop": "Spiele in Schleife",
-	"mp3player.setVolume": "Setzte die Lautstärke auf | %volume",
-	"mp3player.increaseVolume": "Erhöhe die Lautstärke",
-	"mp3player.decreaseVolume": "Verringere die Lautstärke"
+	"mp3player.playMP3Index|block": "Im Ordner MP3 spiele Datei | %index | ab",
+	"mp3player.specifyFolderIndex|block": "Im Ordner | %folder | spiele Datei | %index | ab",
+	"mp3player.pause|block": "Pausieren",
+	"mp3player.resume|block": "Fortsetzen",
+	"mp3player.playNext|block": "Spiel nächste",
+	"mp3player.playPrevious|block": "Spiel vorherige",
+	"mp3player.playLoop|block": "Spiele in Schleife",
+	"mp3player.setVolume|block": "Setzte die Lautstärke auf | %volume",
+	"mp3player.increaseVolume|block": "Erhöhe die Lautstärke",
+	"mp3player.decreaseVolume|block": "Verringere die Lautstärke"
 }
