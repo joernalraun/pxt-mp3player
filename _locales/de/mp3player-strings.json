@@ -1,5 +1,5 @@
 {
-	"mp3player.playIndex|block": "Spiele Datei | %index | ab"
+	"mp3player.playIndex|block": "Spiele Datei | %index | ab",
 	"mp3player.playMP3Index": "Im Ordner MP3 spiele Datei | %index | ab",
 	"mp3player.specifyFolderIndex": "Im Ordner | %folder | spiele Datei | %index | ab",
 	"mp3player.pause": "Pausieren",
