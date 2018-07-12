@@ -1,6 +1,6 @@
 
-//% color=#0fbc11 icon="\uf120" block="mp3player"
-namespace mp3player {
+//% color=#ff4600 icon="\uf001" block="MP3-Modul"
+namespace MP3-Modul {
 
 	serial.onDataReceived("", () => {
 	})
