@@ -1,6 +1,6 @@
 #include "pxt.h"
 
-namespace mp3player {
+namespace MP3-Modul {
 	
     //%
 	void sendCommand(Buffer buffer){

@@ -1,13 +1,13 @@
 {
-	"mp3player.playIndex": "Wählt eine mp3 Datei aus ( index heißt, die n^te Datei die auf die mikrosd-Karte kopiert wurde )",
+	"mp3player.playIndex": "Wählt eine mp3 Datei aus ( index heißt, die nächste Datei die auf die MicroSD-Karte kopiert wurde )",
 	"mp3player.playMP3Index": "Wählt eine mp3 Datei aus, die im Ordner MP3 ist",
-	"mp3player.specifyFolderIndex": "Wählt eine mp3 Datei aus, die in einem Ordner ( der Ordner Name muss eine Nummer sein z.B. 0021 )",
-	"mp3player.pause": "Pausiet die wiedergabe",
-	"mp3player.resume": "Setzt die zuvor pausiete wiedergabe fort",
-	"mp3player.playNext": "Spielt die nächste mp3 Datei",
-	"mp3player.playPrevious": "Spielt die vorherige mp3 Datei",
-	"mp3player.playLoop": "Spielt alle mp3 Dateien in einer Schleife",
-	"mp3player.setVolume": "Setzt die Lautstärke auf einen Wert, der maximal 30 sein darf",
+	"mp3player.specifyFolderIndex": "Wählt eine MP3 Datei aus, die in einem Ordner ( der Ordner Name muss eine Nummer sein z.B. 0021 )",
+	"mp3player.pause": "Hält die Wiedergabe an",
+	"mp3player.resume": "Setzt die Wiedergabe fort",
+	"mp3player.playNext": "Spielt die nächste MP3 Datei",
+	"mp3player.playPrevious": "Spielt die vorherige MP3 Datei",
+	"mp3player.playLoop": "Spielt alle MP3 Dateien in einer Schleife",
+	"mp3player.setVolume": "Setzt die Lautstärke auf einen Wert (max. 30)",
 	"mp3player.increaseVolume": "Erhöht die Lautstärke",
 	"mp3player.decreaseVolume": "Verringert die Lautstärke"
 }
