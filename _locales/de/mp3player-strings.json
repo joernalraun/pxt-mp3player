@@ -1,13 +1,13 @@
 {
-	"mp3player.playIndex|block": "Spiele Datei | %index | ab",
-	"mp3player.playMP3Index|block": "Im Ordner MP3 spiele Datei | %index | ab",
-	"mp3player.specifyFolderIndex|block": "Im Ordner | %folder | spiele Datei | %index | ab",
-	"mp3player.pause|block": "Pausieren",
-	"mp3player.resume|block": "Fortsetzen",
-	"mp3player.playNext|block": "Spiel nächste Datei",
-	"mp3player.playPrevious|block": "Spiel vorherige Datei",
-	"mp3player.playLoop|block": "Spiele in Schleife",
-	"mp3player.setVolume|block": "Setzte die Lautstärke auf | %volume",
-	"mp3player.increaseVolume|block": "Erhöhe die Lautstärke",
-	"mp3player.decreaseVolume|block": "Verringere die Lautstärke"
+	"MP3-Modul.playIndex|block": "Spiele Datei | %index | ab",
+	"MP3-Modul.playMP3Index|block": "Im Ordner MP3 spiele Datei | %index | ab",
+	"MP3-Modul.specifyFolderIndex|block": "Im Ordner | %folder | spiele Datei | %index | ab",
+	"MP3-Modul.pause|block": "Pausieren",
+	"MP3-Modul.resume|block": "Fortsetzen",
+	"MP3-Modul.playNext|block": "Spiel nächste Datei",
+	"MP3-Modul.playPrevious|block": "Spiel vorherige Datei",
+	"MP3-Modul.playLoop|block": "Spiele in Schleife",
+	"MP3-Modul.setVolume|block": "Setzte die Lautstärke auf | %volume",
+	"MP3-Modul.increaseVolume|block": "Erhöhe die Lautstärke",
+	"MP3-Modul.decreaseVolume|block": "Verringere die Lautstärke"
 }
