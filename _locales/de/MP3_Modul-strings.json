@@ -1,0 +1,13 @@
+{
+	"MP3_Modul.playIndex|block": "Spiele Datei | %index | ab",
+	"MP3_Modul.playMP3Index|block": "Im Ordner MP3 spiele Datei | %index | ab",
+	"MP3_Modul.specifyFolderIndex|block": "Im Ordner | %folder | spiele Datei | %index | ab",
+	"MP3_Modul.pause|block": "Pausieren",
+	"MP3_Modul.resume|block": "Fortsetzen",
+	"MP3_Modul.playNext|block": "Spiel nächste Datei",
+	"MP3_Modul.playPrevious|block": "Spiel vorherige Datei",
+	"MP3_Modul.playLoop|block": "Spiele in Schleife",
+	"MP3_Modul.setVolume|block": "Setzte die Lautstärke auf | %volume",
+	"MP3_Modul.increaseVolume|block": "Erhöhe die Lautstärke",
+	"MP3_Modul.decreaseVolume|block": "Verringere die Lautstärke"
+}
