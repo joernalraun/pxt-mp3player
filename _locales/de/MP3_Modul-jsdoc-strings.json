@@ -1,0 +1,13 @@
+{
+	"MP3_Modul.playIndex": "Wählt eine mp3 Datei aus ( index heißt, die nächste Datei die auf die MicroSD-Karte kopiert wurde )",
+	"MP3_Modul.playMP3Index": "Wählt eine mp3 Datei aus, die im Ordner MP3 ist",
+	"MP3_Modul.specifyFolderIndex": "Wählt eine MP3 Datei aus, die in einem Ordner ( der Ordner Name muss eine Nummer sein z.B. 0021 )",
+	"MP3_Modul.pause": "Hält die Wiedergabe an",
+	"MP3_Modul.resume": "Setzt die Wiedergabe fort",
+	"MP3_Modul.playNext": "Spielt die nächste MP3 Datei",
+	"MP3_Modul.playPrevious": "Spielt die vorherige MP3 Datei",
+	"MP3_Modul.playLoop": "Spielt alle MP3 Dateien in einer Schleife",
+	"MP3_Modul.setVolume": "Setzt die Lautstärke auf einen Wert (max. 30)",
+	"MP3_Modul.increaseVolume": "Erhöht die Lautstärke",
+	"MP3_Modul.decreaseVolume": "Verringert die Lautstärke"
+}
