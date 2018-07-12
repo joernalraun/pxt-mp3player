@@ -10,7 +10,7 @@ namespace MP3-Modul {
      */
     //% block="serial|send|command %command" 
     //% blockId=send_command
-    //% shim=mp3player::sendCommand
+    //% shim=MP3-Modul::sendCommand
     function send(command: Buffer): void {
         return;
     }
